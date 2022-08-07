@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Charts (4.0.3):
+    - Charts/Core (= 4.0.3)
+  - Charts/Core (4.0.3):
+    - SwiftAlgorithms (~> 1.0)
+  - MBProgressHUD (1.2.0)
+  - Reachability (3.2)
+  - SwiftAlgorithms (1.0.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire (= 4.9.1)
+  - Charts
+  - MBProgressHUD
+  - Reachability
+  - Toast-Swift (~> 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - MBProgressHUD
+    - Reachability
+    - SwiftAlgorithms
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Charts: d959d6723c8eedfdd0735dfc28cb0a71762ac4d9
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 4671c09e73c7350cf76327b1858dbda31ae2264a
+
+COCOAPODS: 1.11.0

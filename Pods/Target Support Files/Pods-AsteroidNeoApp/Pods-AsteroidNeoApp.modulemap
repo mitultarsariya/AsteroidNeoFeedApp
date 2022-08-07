@@ -1,0 +1,6 @@
+framework module Pods_AsteroidNeoApp {
+  umbrella header "Pods-AsteroidNeoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

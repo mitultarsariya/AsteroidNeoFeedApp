@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4150AEAC2412F1F6183A2752 /* Pods_AsteroidNeoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC287E3DB495E6CBB2E88BF9 /* Pods_AsteroidNeoApp.framework */; };
+		882D2761289D2A85004985E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D2760289D2A85004985E7 /* AppDelegate.swift */; };
+		882D2768289D2A85004985E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882D2766289D2A85004985E7 /* Main.storyboard */; };
+		882D276A289D2A86004985E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882D2769289D2A86004985E7 /* Assets.xcassets */; };
+		882D276D289D2A86004985E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882D276B289D2A86004985E7 /* LaunchScreen.storyboard */; };
+		882D2775289D2ED8004985E7 /* AsteroidChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D2774289D2ED8004985E7 /* AsteroidChartVC.swift */; };
+		882D277A289D34C9004985E7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D2779289D34C9004985E7 /* Constant.swift */; };
+		882D277C289D34D9004985E7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D277B289D34D9004985E7 /* Extensions.swift */; };
+		882D277E289D34E6004985E7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D277D289D34E6004985E7 /* Utils.swift */; };
+		882D2780289D6CE4004985E7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D277F289D6CE4004985E7 /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867143A0F5856F35AD8716F /* Pods-AsteroidNeoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsteroidNeoApp.release.xcconfig"; path = "Target Support Files/Pods-AsteroidNeoApp/Pods-AsteroidNeoApp.release.xcconfig"; sourceTree = "<group>"; };
+		882D275D289D2A85004985E7 /* AsteroidNeoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsteroidNeoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		882D2760289D2A85004985E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		882D2767289D2A85004985E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		882D2769289D2A86004985E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		882D276C289D2A86004985E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		882D276E289D2A86004985E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882D2774289D2ED8004985E7 /* AsteroidChartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidChartVC.swift; sourceTree = "<group>"; };
+		882D2779289D34C9004985E7 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		882D277B289D34D9004985E7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		882D277D289D34E6004985E7 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		882D277F289D6CE4004985E7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		88BC1436289F9CA6003B1136 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC287E3DB495E6CBB2E88BF9 /* Pods_AsteroidNeoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsteroidNeoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6F209ABC82CE3B9BC2118E /* Pods-AsteroidNeoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsteroidNeoApp.debug.xcconfig"; path = "Target Support Files/Pods-AsteroidNeoApp/Pods-AsteroidNeoApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		882D275A289D2A85004985E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4150AEAC2412F1F6183A2752 /* Pods_AsteroidNeoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19E3F0BF8609B2F735D6F64F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88BC1436289F9CA6003B1136 /* Charts.framework */,
+				FC287E3DB495E6CBB2E88BF9 /* Pods_AsteroidNeoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75E27964FFFF65591378134E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD6F209ABC82CE3B9BC2118E /* Pods-AsteroidNeoApp.debug.xcconfig */,
+				0867143A0F5856F35AD8716F /* Pods-AsteroidNeoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		882D2754289D2A85004985E7 = {
+			isa = PBXGroup;
+			children = (
+				882D275F289D2A85004985E7 /* AsteroidNeoApp */,
+				882D275E289D2A85004985E7 /* Products */,
+				75E27964FFFF65591378134E /* Pods */,
+				19E3F0BF8609B2F735D6F64F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		882D275E289D2A85004985E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				882D275D289D2A85004985E7 /* AsteroidNeoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		882D275F289D2A85004985E7 /* AsteroidNeoApp */ = {
+			isa = PBXGroup;
+			children = (
+				882D2760289D2A85004985E7 /* AppDelegate.swift */,
+				882D2766289D2A85004985E7 /* Main.storyboard */,
+				882D2769289D2A86004985E7 /* Assets.xcassets */,
+				882D276B289D2A86004985E7 /* LaunchScreen.storyboard */,
+				882D276E289D2A86004985E7 /* Info.plist */,
+				882D2778289D3478004985E7 /* Commons */,
+				882D2777289D345B004985E7 /* Model */,
+				882D2776289D343F004985E7 /* ViewController */,
+			);
+			path = AsteroidNeoApp;
+			sourceTree = "<group>";
+		};
+		882D2776289D343F004985E7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				882D2774289D2ED8004985E7 /* AsteroidChartVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		882D2777289D345B004985E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				882D277F289D6CE4004985E7 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		882D2778289D3478004985E7 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				882D2779289D34C9004985E7 /* Constant.swift */,
+				882D277B289D34D9004985E7 /* Extensions.swift */,
+				882D277D289D34E6004985E7 /* Utils.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		882D275C289D2A85004985E7 /* AsteroidNeoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882D2771289D2A86004985E7 /* Build configuration list for PBXNativeTarget "AsteroidNeoApp" */;
+			buildPhases = (
+				B9A6F138C1D52206D0756FAF /* [CP] Check Pods Manifest.lock */,
+				882D2759289D2A85004985E7 /* Sources */,
+				882D275A289D2A85004985E7 /* Frameworks */,
+				882D275B289D2A85004985E7 /* Resources */,
+				094800E3FAEB15786E45A2E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsteroidNeoApp;
+			productName = AsteroidNeoApp;
+			productReference = 882D275D289D2A85004985E7 /* AsteroidNeoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		882D2755289D2A85004985E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					882D275C289D2A85004985E7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 882D2758289D2A85004985E7 /* Build configuration list for PBXProject "AsteroidNeoApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 882D2754289D2A85004985E7;
+			productRefGroup = 882D275E289D2A85004985E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				882D275C289D2A85004985E7 /* AsteroidNeoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		882D275B289D2A85004985E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882D276D289D2A86004985E7 /* LaunchScreen.storyboard in Resources */,
+				882D276A289D2A86004985E7 /* Assets.xcassets in Resources */,
+				882D2768289D2A85004985E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		094800E3FAEB15786E45A2E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsteroidNeoApp/Pods-AsteroidNeoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsteroidNeoApp/Pods-AsteroidNeoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsteroidNeoApp/Pods-AsteroidNeoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9A6F138C1D52206D0756FAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsteroidNeoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		882D2759289D2A85004985E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882D277E289D34E6004985E7 /* Utils.swift in Sources */,
+				882D2775289D2ED8004985E7 /* AsteroidChartVC.swift in Sources */,
+				882D2761289D2A85004985E7 /* AppDelegate.swift in Sources */,
+				882D2780289D6CE4004985E7 /* Model.swift in Sources */,
+				882D277A289D34C9004985E7 /* Constant.swift in Sources */,
+				882D277C289D34D9004985E7 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		882D2766289D2A85004985E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882D2767289D2A85004985E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		882D276B289D2A86004985E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882D276C289D2A86004985E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		882D276F289D2A86004985E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		882D2770289D2A86004985E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882D2772289D2A86004985E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD6F209ABC82CE3B9BC2118E /* Pods-AsteroidNeoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsteroidNeoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AsteroidNeoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		882D2773289D2A86004985E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0867143A0F5856F35AD8716F /* Pods-AsteroidNeoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsteroidNeoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AsteroidNeoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		882D2758289D2A85004985E7 /* Build configuration list for PBXProject "AsteroidNeoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882D276F289D2A86004985E7 /* Debug */,
+				882D2770289D2A86004985E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882D2771289D2A86004985E7 /* Build configuration list for PBXNativeTarget "AsteroidNeoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882D2772289D2A86004985E7 /* Debug */,
+				882D2773289D2A86004985E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 882D2755289D2A85004985E7 /* Project object */;
+}
